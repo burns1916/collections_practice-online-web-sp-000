@@ -40,6 +40,6 @@ end
 
 def add_s(array)
   array.each do |word| word.insert(-1, "s")
-    word[1].chop
   end
+    word[1].chop
 end
