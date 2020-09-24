@@ -39,5 +39,5 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.each {|word| word[-1] = "s"}
+  array.each {|word| word.prepend("s")}
 end
