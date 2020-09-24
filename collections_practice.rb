@@ -39,7 +39,7 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.collect do |word| new_array << word.insert(-1, "s")
+  array.collect do |word| word.insert(-1, "s")
   array[1].chop
   end
 end
